@@ -4,7 +4,7 @@ FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Define senha padrão do SYSDBA
-ENV ISC_PASSWORD=masterkey
+ENV ISC_PASSWORD='@Sun147oi.'
 
 # Instala bibliotecas necessárias
 RUN apt-get update && apt-get install -y \
